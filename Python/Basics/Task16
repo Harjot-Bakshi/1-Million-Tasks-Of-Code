@@ -1,0 +1,30 @@
+student_scores = {
+    "Jeremy": 91,
+    "Barney": 100,
+    "Nicole": 56,
+    "Selena": 76,
+    "Britney": 44,
+    "Serious": 61,
+    "Dumbledore": 99,
+    "Gary": 59,
+    "Mary": 68,
+    "Lary": 72,
+    "Jerry": 12,
+}
+
+student_grades = {}
+
+for key in student_scores:
+    grades = student_scores[key]
+    if 91 <= grades <= 100:
+        student_grades[key] = "Outstanding" # can add a print statment here to check the current dict like print(student_grades)
+    elif 81 <= grades <= 90:
+        student_grades[key] = "Exceeds Expectations" # can add a print statment here to check the current dict like print(student_grades)
+    elif 71 <= grades <= 80:
+        student_grades[key] = "Acceptable" # can add a print statment here to check the current dict like print(student_grades)
+    elif 61 <= grades <= 70:
+        student_grades[key] = "Barely Acceptable" # can add a print statment here to check the current dict like print(student_grades)
+    else:
+        student_grades[key] = "Fail" # can add a print statment here to check the current dict like print(student_grades)
+
+print(student_grades)
