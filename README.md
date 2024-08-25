@@ -12,7 +12,7 @@ Even if just one person finds this useful, it’ll make all the effort worthwhil
 
 - **Python/**: Starting with Python basics and moving to more advanced topics.
 - **Future_Languages/**: Placeholder for other languages and frameworks.
-- **Logs/**: A place to track progress and stay motivated.
+- **Logs/**: A place to keep tracks when required.
 - **Resources/**: Helpful links and notes to aid your learning journey.
 
 ## 🤝 How to Join the Fun
